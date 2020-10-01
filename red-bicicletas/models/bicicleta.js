@@ -37,8 +37,10 @@ Bicicleta.removeByID =(ID)=>{
 }
 
 
+let a = new Bicicleta(1,"Verde","Kawasaki",[-34.6364815,-58.3730608])
+let b = new Bicicleta(1,"Celeste","Honda",[-34.7364815,-58.3230608])
 
-
-
+Bicicleta.add(a)
+Bicicleta.add(b)
 
 module.exports = Bicicleta
